@@ -1,10 +1,19 @@
-let num = 5;
+let num=5;
 let count=0;
 
-for(let i=1;i<=num;i++){
-       if(num%i==0){
-    count++;
+for(let i=1;i<=num;i++)
+{
+       if(num%i==0)
+       {
+         count++;
         }
 }
 
-(count==2)? console.log("Prime Number") : console.log("Not a Prime Number");
+if(count==2)
+{
+  console.log(num,"is Prime Number");
+}
+else
+{
+  console.log(num,"is not a Prime Number");
+}
